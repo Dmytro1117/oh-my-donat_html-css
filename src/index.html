@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OH MY DONAT</title>
+    <!-- <link rel="shortcut icon" href="/public/favicon.ico" /> -->
+    <link rel="icon" type="image/svg+xml" href="../public/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600&family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./sass/index.scss" />
+  </head>
+  <body>
+    <div class="no-overflow js-canvas-container"></div>
+    <section class="section about-us">
+      <div class="container about-us__container">
+        <picture>
+          <source
+            srcset="
+              ./images/about-us/sprinkle-dekstop-min.png    1x,
+              ./images/about-us/sprinkle-dekstop@2x-min.png 2x
+            "
+            media="(min-width:1280px)"
+          />
+
+          <source
+            srcset="
+              ./images/about-us/sprinkle-tablet-min.png    1x,
+              ./images/about-us/sprinkle-tablet@2x-min.png 2x
+            "
+            media="(min-width:768px)"
+          />
+
+          <source
+            srcset="
+              ./images/about-us/sprinkle-mobile-min.png    1x,
+              ./images/about-us/sprinkle-mobile@2x-min.png 2x
+            "
+            media="(max-width:767px)"
+          />
+          <img
+            class="about-us__img"
+            src="./images/about-us/sprinkle-dekstop-min.png"
+            alt="sprinkle"
+            width=""
+            height=""
+          />
+        </picture>
+
+        <div class="about-us__history">
+          <h2 class="section__title about-us__title" id="about-us">About us</h2>
+          <p class="about-us__text">
+            Oh My Donut is the shop which adores tasty deserts and spend hours to create
+            sophisticated donuts which will save the world!
+          </p>
+          <p class="about-us__text">
+            Eva has been baking since she was six years old and over the last 49 years, she has
+            created hundreds of cakes for weddings and has baked for many celebrities. Eva and our
+            shop have received multiple awards & recognition for excellence.
+          </p>
+          <div class="js-hidden-text">
+            <p class="about-us__text js-hidden-text-paragraph">
+              We are going to teach you how to cook with passion and sparkles in your eyes! We love
+              what we do and believe you will enjoy our cooking atmosphere!
+            </p>
+            <button class="js-hidden-text-button read-more-btn">
+              <span>Read more</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="program" id="program">
+      <div class="container program__container">
+        <div class="program__info">
+          <h2 class="program-title transparent program__title">Program</h2>
+
+          <p class="program__txt">
+            Indulge in this immersive sweet treat experience with The Chef Donut Queen in her New
+            York donut shop!
+          </p>
+
+          <ul class="program__list">
+            <li class="program__item">
+              <span>A stand up history of donuts</span>
+            </li>
+            <li class="program__item">
+              <span>Make 3 donut flavors of your choice</span>
+            </li>
+            <li class="program__item">
+              <span>Enjoy all-you-can-eat donuts</span>
+            </li>
+            <li class="program__item">
+              <span>Cocktail pairings and coffee included</span>
+            </li>
+            <li class="program__item">
+              <span>Photoshoot by professional photographer</span>
+            </li>
+            <li class="program__item">
+              <span>Secret receipt of cooking from Eva</span>
+            </li>
+            <li class="program__item">
+              <span>All products are included in the price</span>
+            </li>
+          </ul>
+          <div class="js-hidden-text">
+            <p class="program__txt program__txt--read-more js-hidden-text-paragraph">
+              Come with your dear people and friends and you will spend an unforgettable time and
+              will become a real professional in donuts cooking!
+            </p>
+
+            <button class="js-hidden-text-button read-more-btn">Read more</button>
+          </div>
+        </div>
+
+        <div class="program__canvas">
+          <div class="program__cnvs-colmn program__cnvs-colmn-left">
+            <div class="program-first transparent program__thumb program__thumb-top">
+              <picture>
+                <source
+                  srcset="./images/program/prog1-288.png 1x, ./images/program/prog1-576.png 2x"
+                  media="(min-width: 1280px)"
+                  width="288"
+                />
+                <source
+                  srcset="./images/program/prog1-152.png 1x, ./images/program/prog1-304.png 2x"
+                  media="(min-width: 768px)"
+                  width="152"
+                />
+                <source
+                  srcset="./images/program/prog1-130.png 1x, ./images/program/prog1-260.png 2x"
+                  width="130"
+                />
+                <img
+                  class="program__thumb-img"
+                  src="./images/program/prog1-260.png"
+                  alt="Donut Masters are the best!!!"
+                  width="260"
+                />
+              </picture>
+
+              <div class="program__thumb-text">
+                <p class="program__thumb-title">Type of the event</p>
+                <p class="program__thumb-descr">Cooking classes</p>
+              </div>
+            </div>
+
+            <div class="program-second transparent program__thumb program__thumb-bottom">
+              <picture>
+                <source
+                  srcset="./images/program/prog2-288.png 1x, ./images/program/prog2-576.png 2x"
+                  media="(min-width: 1280px)"
+                  width="288"
+                />
+                <source
+                  srcset="./images/program/prog2-152.png 1x, ./images/program/prog2-304.png 2x"
+                  media="(min-width: 768px)"
+                  width="152"
+                />
+                <source
+                  srcset="./images/program/prog2-130.png 1x, ./images/program/prog2-260.png 2x"
+                  width="130"
+                />
+                <img
+                  class="program__thumb-img"
+                  src="./images/program/prog2-260.png"
+                  alt="Donut Masters are the best!!!"
+                  width="260"
+                />
+              </picture>
+
+              <div class="program__thumb-text">
+                <p class="program__thumb-title">Time of the event</p>
+                <p class="program__thumb-descr">18:30 (2.5 hours)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="program__cnvs-colmn program__cnvs-colmn-right">
+            <div class="program-third transparent program__thumb program__thumb-top">
+              <picture>
+                <source
+                  srcset="./images/program/prog3-288.png 1x, ./images/program/prog3-576.png 2x"
+                  media="(min-width: 1280px)"
+                  width="288"
+                />
+                <source
+                  srcset="./images/program/prog3-152.png 1x, ./images/program/prog3-304.png 2x"
+                  media="(min-width: 768px)"
+                  width="152"
+                />
+                <source
+                  srcset="./images/program/prog3-130.png 1x, ./images/program/prog3-260.png 2x"
+                  width="130"
+                />
+                <img
+                  class="program__thumb-img"
+                  src="./images/program/prog3-260.png"
+                  alt="Donut Masters are the best!!!"
+                  width="260"
+                />
+              </picture>
+
+              <div class="program__thumb-text">
+                <p class="program__thumb-title">Number of guests</p>
+                <p class="program__thumb-descr">1 to 20</p>
+              </div>
+            </div>
+
+            <div class="program-fourth transparent program__thumb program__thumb-bottom">
+              <picture>
+                <source
+                  srcset="./images/program/prog4-288.png 1x, ./images/program/prog4-576.png 2x"
+                  media="(min-width: 1280px)"
+                  width="288"
+                />
+                <source
+                  srcset="./images/program/prog4-152.png 1x, ./images/program/prog4-304.png 2x"
+                  media="(min-width: 768px)"
+                  width="152"
+                />
+                <source
+                  srcset="./images/program/prog4-130.png 1x, ./images/program/prog4-260.png 2x"
+                  width="130"
+                />
+                <img
+                  class="program__thumb-img"
+                  src="./images/program/prog4-260.png"
+                  alt="Donut Masters are the best!!!"
+                  width="260"
+                />
+              </picture>
+
+              <div class="program__thumb-text">
+                <p class="program__thumb-title">The host speaks</p>
+                <p class="program__thumb-descr">English, French</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="speakers__section container" id="speakers">
+      <div>
+        <h2 class="speakers-title invisible section__title speakers__title">Speakers</h2>
+        <ul class="speakers">
+          <li class="speaker-first transparent speakers__item">
+            <picture>
+              <source
+                srcset="
+                  ./images/speakers/descktop/molly-rivera-min.png       1x,
+                  ./images/speakers/descktop/molly-rivera-min2x-min.png 2x
+                "
+                media="(min-width:1280px)"
+              />
+              <source
+                srcset="
+                  ./images/speakers/tablet/molly-rivera-min.png        1x,
+                  ./images/speakers/tablet/molly-rivera-min@2x-min.png 2x
+                "
+                media="(min-width:768px)"
+              />
+              <source
+                srcset="
+                  ./images/speakers/mobile/molly-rivera-min.png        1x,
+                  ./images/speakers/mobile/molly-rivera-min@2x-min.png 2x
+                "
+                media="(max-width:767px)"
+              />
+              <img
+                class="speakers__image"
+                src="./images/speakers/mobile/molly-rivera-min.png"
+                alt="speakers Molly Rivera"
+              />
+            </picture>
+            <h3 class="speakers__name">Molly Rivera</h3>
+            <p class="speakers__about">Pastry chef, master chocolatier of Spain</p>
+          </li>
+          <li class="speaker-second transparent speakers__item">
+            <picture>
+              <source
+                srcset="
+                  ./images/speakers/descktop/sophia-clark-min.png        1x,
+                  ./images/speakers/descktop/sophia-clark-min@2x-min.png 2x
+                "
+                media="(min-width:1280px)"
+              />
+              <source
+                srcset="
+                  ./images/speakers/tablet/sophia-clark-min.png        1x,
+                  ./images/speakers/tablet/sophia-clark-min@2x-min.png 2x
+                "
+                media="(min-width:768px)"
+              />
+              <source
+                srcset="
+                  ./images/speakers/mobile/sophia-clark-min.png        1x,
+                  ./images/speakers/mobile/sophia-clark-min@2x-min.png 2x
+                "
+                media="(max-width:767px)"
+              />
+              <img
+                class="speakers__image"
+                src="./images/speakers/mobile/sophia-clark-min.png"
+                alt="speakers Sophia Clark"
+              />
+            </picture>
+            <h3 class="speakers__name">Sophia Clark</h3>
+            <p class="speakers__about">Сulinary school pastry chef</p>
+          </li>
+          <li class="speaker-third transparent speakers__item">
+            <picture>
+              <source
+                srcset="
+                  ./images/speakers/descktop/isabella-taylor-min.png        1x,
+                  ./images/speakers/descktop/isabella-taylor-min@2x-min.png 2x
+                "
+                media="(min-width:1280px)"
+              />
+              <source
+                srcset="
+                  ./images/speakers/tablet/isabella-taylor-min.png    1x,
+                  ./images/speakers/tablet/isabella-taylor@2x-min.png 2x
+                "
+                media="(min-width:768px)"
+              />
+              <source
+                srcset="
+                  ./images/speakers/descktop/isabella-taylor-min.png  1x,
+                  ./images/speakers/tablet/isabella-taylor@2x-min.png 2x
+                "
+                media="(max-width:767px)"
+              />
+              <img
+                class="speakers__image"
+                src="./images/speakers/mobile/isabella-taylor-min.png"
+                alt="speakers Isabella Taylor"
+              />
+            </picture>
+            <h3 class="speakers__name">Isabella Taylor</h3>
+            <p class="speakers__about">Сonsultant in the art of confectionery</p>
+          </li>
+          <li class="speaker-fourth transparent speakers__item">
+            <picture>
+              <source
+                srcset="
+                  ./images/speakers/descktop/evelyn-miller-min.png        1x,
+                  ./images/speakers/descktop/evelyn-miller-min@2x-min.png 2x
+                "
+                media="(min-width:1280px)"
+              />
+              <source
+                srcset="
+                  ./images/speakers/tablet/evelyn-miller-min.png        1x,
+                  ./images/speakers/tablet/evelyn-miller-min@2x-min.png 2x
+                "
+                media="(min-width:768px)"
+              />
+              <source
+                srcset="
+                  ./images/speakers/mobile/evelyn-miller-min.png        1x,
+                  ./images/speakers/mobile/evelyn-miller-min@2x-min.png 2x
+                "
+                media="(max-width:767px)"
+              />
+              <img
+                class="speakers__image"
+                src="./images/speakers/mobile/evelyn-miller-min.png"
+                alt="speakers Evelyn Miller"
+              />
+            </picture>
+            <h3 class="speakers__name">Evelyn Miller</h3>
+            <p class="speakers__about">Master-chocolatier in Spain</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section price__section" id="price">
+      <div class="container">
+        <h2 class="section__title">Price</h2>
+
+        <ul class="price__services">
+          <li class="price">
+            <div class="price__wrapper">
+              <h3 class="price__title">Easy start</h3>
+              <ul class="price__list">
+                <li class="price__item">features of yeast dough preparation</li>
+                <li class="price__item">preparation of liquid caramel for stuffing</li>
+                <li class="price__item">preparation of raspberry and strawberry filling</li>
+                <li class="price__item">fry and glaze donuts</li>
+              </ul>
+              <a class="button price__button" href="#registration">Register</a>
+            </div>
+          </li>
+          <li class="price">
+            <div class="price__wrapper">
+              <h3 class="price__title price__title--circle">I want delicious donuts</h3>
+              <ul class="price__list">
+                <li class="price__item">features of yeast dough preparation</li>
+                <li class="price__item">preparation of liquid caramel for stuffing</li>
+                <li class="price__item">preparation of raspberry and strawberry filling</li>
+                <li class="price__item">melt chocolate for decoration</li>
+                <li class="price__item">fry and glaze donuts</li>
+                <li class="price__item">donut decoration. painting and various techniques</li>
+              </ul>
+              <a class="button price__button" href="#registration">Register</a>
+            </div>
+          </li>
+          <li class="price">
+            <div class="price__wrapper">
+              <h3 class="price__title">Premium</h3>
+              <ul class="price__list">
+                <li class="price__item">features of yeast dough preparation</li>
+                <li class="price__item">preparation of liquid caramel for stuffing</li>
+                <li class="price__item">preparation of raspberry and strawberry filling</li>
+                <li class="price__item">melt chocolate for decoration</li>
+                <li class="price__item">fry and glaze donuts</li>
+                <li class="price__item">donut decoration. painting and various techniques</li>
+                <li class="price__item">After party and donut tasting with speakers</li>
+                <li class="price__item">2 private lessons with one of the speakers</li>
+              </ul>
+              <a class="button price__button" href="#registration">Register</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="reviews" id="reviews">
+      <div class="container reviews__container">
+        <h2 class="reviews__title">Reviews</h2>
+        <div class="reviews-slide">
+          <div class="reviews-slide__element">
+            <picture>
+              <source
+                srcset="./images/reviews/john.jpg 1x, ./images/reviews/john.jpg 2x"
+                media="(min-width:1200px)"
+              />
+              <source
+                srcset="./images/reviews/john.jpg 1x, ./images/reviews/john.jpg 2x"
+                media="(min-width:768px)"
+              />
+              <source
+                srcset="./images/reviews/john.jpg 1x, ./images/reviews/john.jpg 2x"
+                media="(max-width:767px)"
+              />
+
+              <img
+                class="reviews-slide__img"
+                src="./images/reviews/john.jpg"
+                alt="john"
+                width="280"
+              />
+            </picture>
+            <div class="reviews-slide__rate review-rate4"></div>
+            <p class="reviews-slide__name">John</p>
+            <p class="reviews-slide__review">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ad nostrum pariatur
+              sequi tempora illum incidunt doloribus impedit exercitationem expedita soluta
+              laudantium veritatis, perferendis ipsa, molestiae illo saepe qui sunt earum explicabo,
+              facilis facere culpa quibusdam dignissimos. Provident neque hic suscipit perferendis?
+              Sint modi quod possimus illum sequi porro architecto.
+            </p>
+          </div>
+          <div class="reviews-slide__element">
+            <picture>
+              <source
+                srcset="./images/reviews/will.jpg 1x, ./images/reviews/will.jpg 2x"
+                media="(min-width:1200px)"
+              />
+              <source
+                srcset="./images/reviews/will.jpg 1x, ./images/reviews/will.jpg 2x"
+                media="(min-width:768px)"
+              />
+              <source
+                srcset="./images/reviews/will.jpg 1x, ./images/reviews/will.jpg 2x"
+                media="(max-width:767px)"
+              />
+
+              <img
+                class="reviews-slide__img"
+                src="./images/reviews/will.jpg"
+                alt="will"
+                width="280"
+              />
+            </picture>
+            <div class="reviews-slide__rate review-rate5"></div>
+            <p class="reviews-slide__name">Will</p>
+            <p class="reviews-slide__review">
+              Last time I have visited a cooking course by Eva I was impressed with the way she
+              explained everything to people. You can be sure you will manage to cook a delicious
+              dish even if it is your first time in the kitchen! Thank you so much for the
+              masterclass! Looking forward to the next one and highly recommend it to everyone!
+            </p>
+          </div>
+          <div class="reviews-slide__element">
+            <picture>
+              <source
+                srcset="./images/reviews/elizbeth.jpg 1x, ./images/reviews/elizbeth.jpg 2x"
+                media="(min-width:1200px)"
+              />
+              <source
+                srcset="./images/reviews/elizbeth.jpg 1x, ./images/reviews/elizbeth.jpg 2x"
+                media="(min-width:768px)"
+              />
+              <source
+                srcset="./images/reviews/elizbeth.jpg 1x, ./images/reviews/elizbeth.jpg 2x"
+                media="(max-width:767px)"
+              />
+
+              <img
+                class="reviews-slide__img"
+                src="./images/reviews/elizbeth.jpg"
+                alt="elizbeth"
+                width="280"
+              />
+            </picture>
+            <div class="reviews-slide__rate review-rate5"></div>
+            <p class="reviews-slide__name">Elizabeth</p>
+            <p class="reviews-slide__review">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia sit, officiis
+              perferendis ipsam aperiam atque consequuntur assumenda quod dolorum iusto
+              reprehenderit explicabo magnam adipisci ea quisquam eveniet nihil soluta error!
+            </p>
+          </div>
+          <div class="reviews-slide__element">
+            <picture>
+              <!-- <source
+            srcset="./images/reviews/eva.jpg 1x, ./images/reviews/eva.jpg 2x"
+            media="(min-width:1200px)"
+          />
+          <source
+            srcset="./images/reviews/eva.jpg 1x, ./images/reviews/eva.jpg 2x"
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="./images/reviews/eva.jpg 1x, ./images/reviews/eva.jpg 2x"
+            media="(max-width:767px)"
+          /> -->
+
+              <img
+                class="reviews-slide__img"
+                src="./images/reviews/isabella.png"
+                alt="eva"
+                width="280"
+              />
+            </picture>
+            <div class="reviews-slide__rate review-rate5"></div>
+            <p class="reviews-slide__name">Isabella</p>
+            <p class="reviews-slide__review">
+              I work here and can say that it's the best place to learn cooking donuts!!!
+            </p>
+          </div>
+        </div>
+        <span class="slide-number"></span>
+      </div>
+    </section>
+    <section class="registration container" id="registration">
+      <h2 class="section registration__title">Registration</h2>
+
+      <form class="registration__form">
+        <div class="registration__wrap">
+          <p class="registration__form__date">May 23, 11:00 New York</p>
+
+          <div class="registration__vl"></div>
+
+          <div class="registration__form__right-part">
+            <p class="registration__form__subtitle">Apply your personal info for registration</p>
+
+            <div class="registration__form-field">
+              <input
+                class="registration__form__input"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="e.g. Homer"
+                pattern="[A-Z][a-z]{1,15}"
+                title="Ooops... Plz, try again"
+              />
+              <label for="name" class="registration__form-label">Your name</label>
+            </div>
+
+            <div class="registration__form-field">
+              <input
+                class="registration__form__input"
+                type="tel"
+                name="tel"
+                id="tel"
+                placeholder="e.g. +380777777777 "
+                pattern="\+?[0-9\s\-\(\)]+"
+                minlength="13"
+                maxlength="13"
+                title="Ooops... Plz, try again"
+              />
+              <label for="tel" class="registration__form-label">Phone number</label>
+            </div>
+
+            <div class="registration__form-field">
+              <input
+                class="registration__form__input"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="e.g. ilovedonuts@gmail.com"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                title="Ooops... Plz, try again"
+              />
+              <label for="email" class="registration__form-label">Email</label>
+            </div>
+          </div>
+
+          <button class="button registration__button" type="submit">Register</button>
+
+          <div class="registration__form__img2">
+            <picture>
+              <source
+                srcset="
+                  ./images/registration/desktop_white_wave.png   1x,
+                  ./images/registration/desktop_white_wave2x.png 2x
+                "
+                media="(min-width:1280px)"
+              />
+              <source
+                srcset="
+                  ./images/registration/tablet_white_wave.png   1x,
+                  ./images/registration/tablet_white_wave2x.png 2x
+                "
+                media="(min-width:768px)"
+              />
+              <img src="./images/registration/tablet_white_wave.png" alt="white decor" />
+            </picture>
+          </div>
+          <div class="registration__form__img3">
+            <picture>
+              <source
+                srcset="
+                  ./images/registration/desktop_mini_donuts.png   1x,
+                  ./images/registration/desktop_mini_donuts2x.png 2x
+                "
+                media="(min-width:1280px)"
+              />
+              <source
+                srcset="
+                  ./images/registration/tablet_mini_donuts.png   1x,
+                  ./images/registration/tablet_mini_donuts2x.png 2x
+                "
+                media="(min-width:768px)"
+              />
+              <img src="./images/registration/tablet_mini_donuts.png" alt="mini donuts" />
+            </picture>
+          </div>
+        </div>
+      </form>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container contact__container">
+        <form class="contact__form">
+          <h3 class="contact__title">Contact</h3>
+          <p class="contact__text">We will answer any question!</p>
+          <label class="contact__label">
+            <input type="email" class="contact__input" name="contact-mail" placeholder="Email" />
+          </label>
+          <label class="contact__label">
+            <input
+              type="text"
+              class="contact__textarea"
+              name="contact-comment"
+              placeholder="Type your question"
+            />
+          </label>
+          <button type="submit" class="button contact__button">Send</button>
+        </form>
+        <ul class="soc-list contact__soc-list">
+          <li class="contact__pack">
+            <a href="#" class="soc-list__link">
+              <svg class="soc-list__icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="contact__pack">
+            <a href="#" class="soc-list__link">
+              <svg class="soc-list__icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="contact__pack">
+            <a href="#" class="soc-list__link">
+              <svg class="soc-list__icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container footer__container">
+        <address class="footer__address">
+          <ul class="footer__item">
+            <li>
+              <a href="tel:(910)2228855" class="footer__phone">
+                <svg class="footer__svg" width="12" height="12">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+                (910)222-8855
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.google.com/maps/place/Нью-Йорк,+Сполучені+Штати+Америки/@42.7247355,-78.0133157,7z/data=!4m13!1m7!3m6!1s0x4ccc4bf0f123a5a9:0xddcfc6c1de189567!2z0J3RjNGOLdCZ0L7RgNC6LCDQodC_0L7Qu9GD0YfQtdC90ZYg0KjRgtCw0YLQuCDQkNC80LXRgNC40LrQuA!3b1!8m2!3d43.2994285!4d-74.2179326!3m4!1s0x4ccc4bf0f123a5a9:0xddcfc6c1de189567!8m2!3d43.2994285!4d-74.2179326"
+                class="footer__map"
+                target="_blank"
+              >
+                <svg class="footer__svg" width="12" height="12">
+                  <use href="./images/icons.svg#icon-map-point"></use>
+                </svg>
+                New York
+              </a>
+            </li>
+          </ul>
+          <a href="./index.html" class="footer__link">
+            <img src="./images/footer/footer-link.png" alt="" width="60" height="40" />
+          </a>
+        </address>
+      </div>
+    </footer>
+    <section class="section hero" id="hero">
+      <div class="container hero__container">
+        <h1 class="hero-title-text">Donut Masterclass with the Donut King</h1>
+        <p class="hero-title__post">Hosted by Eva Green</p>
+
+        <a class="button hero__button" href="#registration">Register</a>
+
+        <ul class="soc-list hero__soc-list">
+          <li class="soc-list__item">
+            <a class="soc-list__link" href="#">
+              <svg class="soc-list__icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a class="soc-list__link" href="#">
+              <svg class="soc-list__icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a class="soc-list__link" href="#">
+              <svg class="soc-list__icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="header__background"></div>
+    <header class="section header" id="top">
+      <div class="container header__container">
+        <nav class="header__nav">
+          <a class="header__logo" href="#hero">
+            <svg class="logo">
+              <use href="./images/icons.svg#icon-logo"></use>
+            </svg>
+          </a>
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#about-us">About us</a>
+            </li>
+
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#program">Program</a>
+            </li>
+
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#speakers">Speakers</a>
+            </li>
+
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#price">Price</a>
+            </li>
+
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#reviews">Reviews</a>
+            </li>
+
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="mob-menu__button-open" type="button">
+          <svg class="mob-menu__icon mob-menu__icon--open">
+            <use href="./images/icons.svg#icon-menu-burger"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mob-menu">
+        <nav class="mob-menu__nav container">
+          <a class="mob-menu__logo" href="#hero">
+            <svg class="logo">
+              <use href="./images/icons.svg#icon-logo"></use>
+            </svg>
+          </a>
+          <ul class="mob-menu__nav-list">
+            <li class="mob-menu__nav-item">
+              <a class="mob-menu__nav-link" href="#about-us">About us</a>
+            </li>
+
+            <li class="mob-menu__nav-item">
+              <a class="mob-menu__nav-link" href="#program">Program</a>
+            </li>
+
+            <li class="mob-menu__nav-item">
+              <a class="mob-menu__nav-link" href="#speakers">Speakers</a>
+            </li>
+
+            <li class="mob-menu__nav-item">
+              <a class="mob-menu__nav-link" href="#price">Price</a>
+            </li>
+
+            <li class="mob-menu__nav-item">
+              <a class="mob-menu__nav-link" href="#reviews">Reviews</a>
+            </li>
+
+            <li class="mob-menu__nav-item">
+              <a class="mob-menu__nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <button class="mob-menu__button-close" type="button">
+            <svg class="mob-menu__icon mob-menu__icon--close">
+              <use href="./images/icons.svg#icon-close-cross"></use>
+            </svg>
+          </button>
+        </nav>
+      </div>
+      <a class="up-button" href="#top"></a>
+    </header>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="module" src="./JS/index.js"></script>
+  </body>
+</html>

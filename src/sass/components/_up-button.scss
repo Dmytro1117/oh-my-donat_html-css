@@ -1,0 +1,39 @@
+.up-button {
+  background-image: url('../images/up-button.png');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 55px;
+  height: 55px;
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 400ms linear, visibility 0ms 400ms;
+
+  animation-name: 'up-button-anim';
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+}
+
+.up-button--visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+@keyframes up-button-anim {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

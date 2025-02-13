@@ -1,0 +1,19 @@
+{
+  "name": "oh-my-donut",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "sass": "^1.84.0",
+    "vite": "^4.4.5"
+  }
+}
